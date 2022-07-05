@@ -10,6 +10,7 @@
     --white: #FFFFFF;
     --gray-white: #F2F5FF;
 }
+/*Definicion de clases por color*/
 .poppins_font{
     font-family: 'Poppins', sans-serif !important;
 }
@@ -30,4 +31,11 @@
 }
 .color-gray_soft{
     color: var(--gray-soft);
+}
+/*Estilos a elementos*/
+body{
+    font-family: 'Poppins', sans-serif!important;
+}
+.navbar-text{
+ color: var(--primario)!important;
 }
