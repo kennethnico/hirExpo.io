@@ -11,6 +11,9 @@
     --gray-white: #F2F5FF;
 }
 /*Definicion de clases por color*/
+.justify-text{
+    text-align: justify!important;
+}
 .poppins_font{
     font-family: 'Poppins', sans-serif !important;
 }
