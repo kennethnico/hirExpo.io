@@ -15,8 +15,21 @@
   --bs-gray-dark: rgba(67, 89, 113, 0.8);
   --bs-gray-25: rgba(67, 89, 113, 0.025);
   --bs-gray-50: rgba(67, 89, 113, 0.05);
+  /***/
+  --bs-primary: #5A81FA;
+  --primario-soft: #CDDEFF;
+  --bs-secondary: #2C3D8F;
+  --dark: #1F1F1F;
+  --gray: #6A6E83;
+  --gray-soft: #A8B1CE;
+  --white-soft: #F8F9FD;
+  --white: #FFFFFF;
+  --gray-white: #F2F5FF;
+  /***/
+  /*
   --bs-primary: #696cff;
   --bs-secondary: #8592a3;
+  */
   --bs-success: #71dd37;
   --bs-info: #03c3ec;
   --bs-warning: #ffab00;
@@ -41,7 +54,7 @@
   --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-root-font-size: 16px;
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: 'Poppins' sans-serif;
   --bs-body-font-size: 0.9375rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.53;
@@ -4269,7 +4282,7 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #696cff;
+  background-color: var(--bs-primary);
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {

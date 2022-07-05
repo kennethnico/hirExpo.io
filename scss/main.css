@@ -15,27 +15,39 @@
     font-family: 'Poppins', sans-serif !important;
 }
 .color-primario{
-    color: var(--primario);
+    color: var(--primario)!important;
 }
 .color-primario__soft{
-    color: var(--primario-soft);
+    color: var(--primario-soft)!important;
 }
 .color-secundario{
-    color: var(--secundario);
+    color: var(--secundario)!important;
 }
 .color-dark{
-    color: var(--dark);
+    color: var(--dark)!important;
 }
 .color-gray{
-    color: var(--gray);
+    color: var(--gray)!important;
 }
 .color-gray_soft{
-    color: var(--gray-soft);
+    color: var(--gray-soft)!important;
 }
 /*Estilos a elementos*/
 body{
     font-family: 'Poppins', sans-serif!important;
 }
 .navbar-text{
- color: var(--primario)!important;
+ color: var(--bs-primary)!important;
+}
+.menu-item .menu-link i,div{
+    color: var(--bs-primary)!important;
+}
+.myactiveBg{
+    background-color: var(--bs-secondary)!important;
+}
+.myactiveBgWhite{
+    background-color: var(--white)!important;
+}
+i.myactive,div.myactive{
+    color: var(--white)!important;
 }
