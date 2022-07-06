@@ -54,3 +54,6 @@ body{
 i.myactive,div.myactive{
     color: var(--white)!important;
 }
+.accordion-body ol,ul{
+    margin-left: 20px;
+}
