@@ -129,6 +129,133 @@
             </nav>
             <div class="content-wrapper">
                 <div class="container-xxl flex-grow-1 container-p-y">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="row text-center">
+                                <div class="col-lg-4 text-dark"><h3 class="badge bg-color-secondary" style="font-size: 1.8rem; font-weight: bold;">ANÁLISIS DE INFORMACIÓN</h3></div>
+                                <div class="col-lg-4 text-dark"><span><strong>Nombre de creador:</strong> Saúl Cariño Gil</span></div>
+                                <div class="col-lg-4 text-dark"><span><strong>Semana de:</strong> 04/07/2022</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered tdbreak">
+                                    <thead>
+                                    <tr class="text-center" style="vertical-align: center;">
+                                        <th class="bg-color-secondary iiTable-100">Fuentes de Información</th>
+                                        <th class="bg-color-secondary iTable-200">Datos</th>
+                                        <th class="bg-color-secondary iiTable-100">Repositorio</th>
+                                        <th class="bg-color-secondary iiTable-150">Base de Datos</th>
+                                        <th class="bg-color-secondary iTable-200">Consideraciones</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody class="table-border-bottom-0 text-center">
+                                    <tr>
+                                        <td class="text-black">EBMS</td>
+                                        <td class="fw-bold">
+                                            <span class="fColor-azul">Clave de Contrato</span>,
+                                            <span class="fColor-azul">Descripción de Contrato</span>,
+                                            <span class="fColor-verde">Clave de Vendedor</span>,
+                                            <span class="fColor-verde">Nombre de Vendedor</span>,
+                                            <span class="fColor-amarillo">Clave de Unidad de Negocio</span>,
+                                            <span class="fColor-amarillo">Descripción de Unidad de Negocio</span>,
+                                            <span class="fColor-purpura">Fecha de Venta</span>,
+                                            <span class="fColor-purpura">Fecha de Evento</span>,
+                                            <span class="fColor-cafe">Venta por unidad de negocio Real</span>,
+                                            <span class="fColor-cafe">Valor Total Real del Contrato</span>,
+                                            <span class="text-black">ANTICIPO</span>,
+                                            <span class="fColor-verdePasto">Venta por unidad de negocio Ppto</span>,
+                                            <span class="fColor-verdePasto">Valor Total Ppto del Contrato</span>,
+                                            <span class="fColor-verdeBandera">Costo por unidad de negocio Real</span>,
+                                            <span class="fColor-verdeBandera">Valor Total Costo Real del Contrato</span>,
+                                            <span class="fColor-verdeBandera">Costo por unidad de negocio Ppto</span>,
+                                            <span class="fColor-verdeBandera">Valor Costo Ppto del Contrato</span>
+                                        </td>
+                                        <td class="text-black">Espejo Nube</td>
+                                        <td class="text-black">SQL Server</td>
+                                        <td class="text-black">Se deben de traer los montos a total mensual.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-black">Mybusiness</td>
+                                        <td class="fw-bold">
+                                            <span class="fColor-azul">Clave de Contrato</span>,
+                                            <span class="fColor-azul">Descripción de Contrato</span>,
+                                            <span class="fColor-verde">Clave de Vendedor</span>,
+                                            <span class="fColor-verde">Nombre de Vendedor</span>,
+                                            <span class="fColor-amarillo">Clave de Unidad de Negocio</span>,
+                                            <span class="fColor-amarillo">Descripción de Unidad de Negocio</span>,
+                                            <span class="fColor-purpura">Fecha de Venta</span>,
+                                            <span class="fColor-purpura">Fecha de Evento</span>,
+                                            <span class="fColor-cafe">Venta por unidad de negocio Real</span>,
+                                            <span class="fColor-cafe">Valor Total Real del Contrato</span>,
+                                            <span class="text-black">ANTICIPO</span>,
+                                            <span class="fColor-verdePasto">Venta por unidad de negocio Ppto</span>,
+                                            <span class="fColor-verdePasto">Valor Total Ppto del Contrato</span>,
+                                            <span class="fColor-verdeBandera">Costo por unidad de negocio Real</span>,
+                                            <span class="fColor-verdeBandera">Valor Total Costo Real del Contrato</span>,
+                                            <span class="fColor-verdeBandera">Costo por unidad de negocio Ppto</span>,
+                                            <span class="fColor-verdeBandera">Valor Costo Ppto del Contrato</span>
+                                        </td>
+                                        <td class="text-black">Site</td>
+                                        <td class="text-black">SQL Server</td>
+                                        <td class="text-black">Se deben de traer los montos a total mensual.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SAP (GL)</td>
+                                        <td class="fw-bold">
+                                            <span class="fColor-azul">Clave de Cuenta</span>,
+                                            <span class="fColor-azul">Descripción de Cuenta</span>,
+                                            <span class="fColor-purpura">Fecha de Cierre</span>,
+                                            <span class="fColor-cafe">Saldo (Utilidad Neta, CXC, otras)</span>
+                                        </td>
+                                        <td class="text-black">Site</td>
+                                        <td class="text-black">SQL Server</td>
+                                        <td class="text-black">Los montos del presupuesto serán capturados por Planeación Financiera.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>RH(E360)</td>
+                                        <td class="fw-bold">
+                                            <span class="fColor-azul">Clave de Empleado</span>,
+                                            <span class="fColor-azul">Nombre del Empleado</span>,
+                                            <span class="fColor-azul">Clave de Tópico</span>,
+                                            <span class="fColor-azul">Descripción de Tópico</span>,
+                                            <span class="fColor-cafe">Calificación</span>
+                                        </td>
+                                        <td class="text-black">Site</td>
+                                        <td class="text-black">SQL Server</td>
+                                        <td class="text-black">Sera por medio de una conexión.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Modulo de Captura</td>
+                                        <td class="fw-bold">
+                                            <span class="fColor-azul">Clave de Puesto</span>,
+                                            <span class="fColor-azul">Descripción de puesto</span>,
+                                            <span class="fColor-cafe">Cantidades</span>
+                                        </td>
+                                        <td class="text-black">PAW</td>
+                                        <td class="text-black">Planning Analytics</td>
+                                        <td class="text-black">NA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Porcentajes de Comisiones</td>
+                                        <td class="fw-bold">
+                                            <span class="fColor-azul">Clave de Puesto</span>,
+                                            <span class="fColor-azul">Descripción de puesto</span>,
+                                            <span class="fColor-amarillo">Clave de Unidad de Negocio</span>,
+                                            <span class="fColor-amarillo">Descripción de Unidad de Negocio</span>,
+                                            <span class="fColor-cafe">% Comisión</span>
+                                        </td>
+                                        <td class="text-black">Excel</td>
+                                        <td class="text-black">Cliente PF</td>
+                                        <td class="text-black"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Footer -->
                 <footer class="content-footer footer bg-footer-theme">

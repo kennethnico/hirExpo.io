@@ -128,3 +128,34 @@ i.myactive,div.myactive{
 .lTable{
     min-width: 100px!important;
 }
+/*Fuentes información - Estilos*/
+.fColor-azul{
+    color: #2C3D8F!important;
+}
+.fColor-verde{
+    color: forestgreen;
+}
+.fColor-amarillo{
+    color: #bebe1e !important;
+}
+.fColor-purpura{
+    color: rebeccapurple!important;
+}
+.fColor-cafe{
+    color: saddlebrown!important;
+}
+.fColor-verdePasto{
+    color:lawngreen!important;
+}
+.fColor-verdeBandera{
+    color:darkgreen!important;
+}
+.iTable-200{
+    min-width: 200px!important;
+}
+.iiTable-100{
+    min-width: 100px!important;
+}
+.iiTable-150{
+    min-width: 150px!important;
+}
