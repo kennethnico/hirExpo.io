@@ -10,6 +10,9 @@
     --white: #FFFFFF;
     --gray-white: #F2F5FF;
 }
+body{
+    font-size: 62.5%;
+}
 /*Definicion de clases por color*/
 .justify-text{
     text-align: justify!important;
@@ -41,6 +44,7 @@ body{
 }
 .navbar-text{
  color: var(--bs-primary)!important;
+    font-weight: bold;
 }
 .menu-item .menu-link i,div{
     color: var(--bs-primary)!important;
@@ -53,6 +57,9 @@ body{
 }
 i.myactive,div.myactive{
     color: var(--white)!important;
+}
+.accordion-header{
+    font-weight: bold;
 }
 .accordion-body ol,ul{
     margin-left: 20px;
