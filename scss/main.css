@@ -38,6 +38,59 @@ body{
 .color-gray_soft{
     color: var(--gray-soft)!important;
 }
+/*BG Colors*/
+.bg-color-secondary{
+    background-color: var(--bs-secondary)!important;
+    color: var(--white)!important;
+}
+.bg-color-primary{
+    background-color: var(--bs-primary)!important;
+    color: var(--white)!important;
+}
+.bg-color-morado{
+    background-color: rebeccapurple!important;
+    color: var(--white)!important;
+}
+.bg-color-rosa{
+    background-color: deeppink!important;
+    color: var(--white)!important;
+}
+.bg-color-naranja{
+    background-color: orange!important;
+    color: var(--white)!important;
+}
+.bg-color-verde{
+    background-color: darkgreen!important;
+    color: var(--white)!important;
+}
+.bg-color-blue__rgb{
+    background-color: rgba(180, 200, 227, 1)!important;
+    color: var(--secundario)!important;
+    font-weight: bold!important;
+}
+.bg-color-softblue__rgb{
+    background-color: rgba(219, 231, 244, 1) !important;
+    color: var(--primario) !important;
+    font-weight: bold!important;
+}
+.bg-color-orange__rgb{
+    background-color: rgba(252, 220, 199, 1)!important;
+    color: orange!important;
+    font-weight: bold!important;
+}
+.bg-color-green__rgb{
+    background-color: rgba(144, 238, 144, 0.8) !important;
+    color: green!important;
+    font-weight: bold!important;
+}
+.bg-color-yellow__rgb{
+    background-color: rgba(239, 239, 85, 0.9)!important;
+    color: #1e2c3c!important;
+    font-weight: bold!important;
+}
+.bg-color-gray{
+    background-color: rgba(80, 80, 80, 0.2) !important;
+}
 /*Estilos a elementos*/
 body{
     font-family: 'Poppins', sans-serif!important;
@@ -58,9 +111,20 @@ body{
 i.myactive,div.myactive{
     color: var(--white)!important;
 }
+/*Estilos especiales a acordeon Propuesta.html*/
 .accordion-header{
     font-weight: bold;
 }
 .accordion-body ol,ul{
     margin-left: 20px;
+}
+/*Estilo a celdas de tabla Analisis de Negocio*/
+.tdbreak td{
+    word-break: break-word!important;
+}
+.cTable{
+    min-width: 200px!important;
+}
+.lTable{
+    min-width: 100px!important;
 }
