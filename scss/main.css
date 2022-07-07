@@ -23,7 +23,9 @@
     --gray-white: #F2F5FF;
 }
 body{
-    font-size: 62.5%!important;
+    font-family: 'Lato', sans-serif!important;
+}
+button,div,p,li,span{
     font-family: 'Lato', sans-serif!important;
 }
 /*Definicion de clases por color*/
@@ -284,6 +286,7 @@ i.myactive,div.myactive{
 .nopaddingLR{
     padding-left: 10px!important;
     padding-right: 15px!important;
+    padding-top: 15px!important;
     width: 155px!important;
 }
 .nopaddingLR .card{
@@ -299,6 +302,19 @@ i.myactive,div.myactive{
     color: #FFF!important;
 }
 .col-flotante{
-    position: relative;
-    top: -150px;
+    position: absolute;
+    right: 30px!important;
+    bottom: 120px!important;
+}
+.col-flotante .row{
+    justify-content: end;
+}
+@media (max-width: 950px){
+    .col-flotante{
+        position: relative;
+        justify-content: center!important;
+    }
+    .col-flotante .row{
+        justify-content: center;
+    }
 }

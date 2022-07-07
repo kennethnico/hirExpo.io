@@ -14727,12 +14727,16 @@ body {
 .buy-now .btn-buy-now {
   position: fixed;
   bottom: 3rem;
-  right: 1.625rem;
+  right: calc(50% - 70px);
   z-index: 999999;
-  box-shadow: 0 1px 20px 1px #ff3e1d;
+  box-shadow: 0 1px 20px 1px var(--secundario-tres);
+  font-family: 'Lato', sans-serif!important;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .buy-now .btn-buy-now:hover {
-  box-shadow: none;
+  box-shadow: 0 1px 20px 1px var(--secundario);
 }
 
 .ui-square,
