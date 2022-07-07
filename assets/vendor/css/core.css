@@ -11,14 +11,13 @@
   --bs-teal: #20c997;
   --bs-cyan: #03c3ec;
   --bs-white: #fff;
-  --bs-gray: rgba(67, 89, 113, 0.6);
   --bs-gray-dark: rgba(67, 89, 113, 0.8);
   --bs-gray-25: rgba(67, 89, 113, 0.025);
   --bs-gray-50: rgba(67, 89, 113, 0.05);
   /***/
-  --bs-primary: #5A81FA;
+  --bs-primary: #032CA6;
   --primario-soft: #CDDEFF;
-  --bs-secondary: #2C3D8F;
+  --bs-secondary: #032ca6;
   --dark: #1F1F1F;
   --gray: #6A6E83;
   --gray-soft: rgba(168, 177, 206, 0.9);
