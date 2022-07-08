@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<html
-        lang="en"
-        class="light-style layout-menu-fixed"
->
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta
@@ -27,6 +24,26 @@
     <link rel="stylesheet" href="./assets/vendor/libs/apex-charts/apex-charts.css" />
     <script src="./assets/vendor/js/helpers.js"></script>
     <script src="./assets/js/config.js"></script>
+    <style>
+        body{
+            font-size: 62.5%!important;
+        }
+        h5{
+            font-size: 1.6rem!important;
+        }
+        h4{
+            font-size: 1.8rem!important;
+        }
+        p{
+            font-size: 1.1rem!important;
+        }
+        .accordion-button{
+            font-size: 1.1rem!important;
+        }
+        li{
+            font-size: 1rem!important;
+        }
+    </style>
 </head>
 
 <body>
@@ -123,7 +140,7 @@
                 <!--<div class="container-fluid">-->
                 <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                     <div class="navbar-nav align-items-center">
-                        <span class="navbar-text">PROPUESTA:</span>
+                        <span class="navbar-text" style="font-size: 1.3rem!important;">PROPUESTA:</span>
                     </div>
                 </div>
             </nav>
@@ -151,6 +168,7 @@
                                 <div class="card-body">
                                     <div class="row gy-3">
                                         <div class="accordion mt-3" id="accordion">
+                                            <!-----Empresa Solicitante---->
                                             <div class="card accordion-item">
                                                 <h2 class="accordion-header" id="headingOne">
                                                     <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordionOne" aria-expanded="true" aria-controls="accordionOne">
@@ -175,6 +193,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-----1.- Objetivo del Documento----->
                                             <div class="card accordion-item">
                                                 <h2 class="accordion-header color-secundario" id="headingTwo">
                                                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionTwo" aria-expanded="false" aria-controls="accordionTwo">
@@ -185,13 +204,14 @@
                                                     <div class="accordion-body">
                                                         <p class="color-dark" style="text-align: justify;">Agradeciendo la oportunidad que Hir Expo Internacional, nos da mucho gusto presentar nuestra propuesta para el desarrollo de su Arquitectura y Gobernabilidad de Información, la cual será creada por medio de un marco de referencia denominado “Marco de Arquitectura y Gobernabilidad de Información” el cual proporciona principios y prácticas para crear y utilizar la descripción de la arquitectura de Hir Expo Internacional. Estructura el pensamiento de los arquitectos al dividir la descripción de la arquitectura en dominios, capas o vistas, y ofrece modelos, generalmente matrices y diagramas, para documentar cada vista. Esto permite tomar decisiones de diseño sistémico en todos los componentes de Hir Expo Internacional y tomar decisiones a través del tiempo sobre nuevos requisitos de diseño, sostenibilidad y soporte. </p>
                                                     </div>
-                                                    <div class="col-4" style="margin: 0 auto 10px;">
+                                                    <div class="col-lg-8 col-md-8 col-sm-12" style="margin: 0 auto 10px;">
                                                         <div class="card">
                                                             <img class="card-img-top" src="./assets/img_prop/1s_pir.jpeg" alt="Objetivo del Documento"/>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-----2.- Resumen Ejecutivo------>
                                             <div class="card accordion-item">
                                                 <h2 class="accordion-header" id="headingThree">
                                                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionThree" aria-expanded="false" aria-controls="accordionThree">
@@ -205,7 +225,7 @@
                                                         <p class="color-dark" style="text-align: justify"><strong>Descripciones de arquitectura:</strong> cómo documentar la empresa como un sistema, desde varios puntos de vista. Cada vista describe una porción de la arquitectura; incluye aquellas entidades y relaciones que abordan preocupaciones particulares de interés para partes interesadas especificas; puede tomar la forma de una lista, una tabla, un diagrama o un nivel superior compuesto de estos.</p>
                                                         <p class="color-dark" style="text-align: justify"><strong>Métodos para diseñar arquitectura:</strong> procesos que siguen los arquitectos, por lo general, un proceso de Arquitectura y Gobernabilidad de Información general, compuesto por fases, se divide en procesos de nivel inferior compuestos por actividades más detalladas. Un proceso se define por sus objetivos, entradas, fases (pasos o actividades) y salidas. Puede estar respaldado por enfoques, técnicas, herramientas, principios, reglas y prácticas.</p>
                                                         <p class="color-dark" style="text-align: justify"><strong>Organización de arquitectos:</strong> orientación sobre la estructura del equipo y el gobierno del equipo, incluidas las habilidades, la experiencia y la capacitación necesarias.</p>
-                                                        <div class="col-4" style="margin: 0 auto 10px;">
+                                                        <div class="col-lg-8 col-md-8 col-sm-12" style="margin: 0 auto 10px;">
                                                             <div class="card">
                                                                 <img class="card-img-top" src="./assets/img_prop/2s_img.jpeg" alt="Resumen ejecutivo"/>
                                                             </div>
@@ -213,6 +233,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-----3.- Alcance del Servicio Propuesto----->
                                             <div class="card accordion-item">
                                                 <h2 class="accordion-header" id="fourHead">
                                                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fourAcc" aria-expanded="false" aria-controls="fourAcc">
@@ -231,9 +252,9 @@
                                                             <li><span style="margin-left: 10px;">Caso de Uso: Modelo de Compensación Variable (A escala y/o Piloto).</span></li>
                                                         </ol>
                                                         <p class="color-dark justify-text">Un dominio de arquitectura en la Arquitectura y Gobernabilidad de Información es una visión amplia de una empresa o sistema. Es una representación parcial de un sistema completo que aborda varias preocupaciones de varias partes interesadas. Es una descripción que oculta otras vistas o facetas del sistema descrito. Las arquitecturas de negocios, datos, aplicaciones y tecnología se reconocen como los dominios centrales en la mayoría de los conceptos propuestos relacionados con la definición de la Arquitectura y Gobernabilidad de Información.</p>
-                                                        <div class="col-lg-4 col-md-6 col-sm-12" style="margin: 0 auto 10px;">
+                                                        <div class="col-lg-8 col-md-8 col-sm-12" style="margin: 0 auto 10px;">
                                                             <div class="card">
-                                                                <img class="card-img-top" src="./assets/img_prop/3s_uno.png" alt="Alcance del Servicio Propuesto"/>
+                                                                <img class="card-img-top" src="./assets/img_prop/3s_uno.jpeg" alt="Alcance del Servicio Propuesto"/>
                                                             </div>
                                                         </div>
                                                         <p class="color-dark"><strong>Capas de la Arquitectura y Gobernabilidad de Información</strong></p>
@@ -255,9 +276,9 @@
                                                             <li>Capa de tecnología (hardware genérico, red y aplicaciones de plataforma que ofrecen servicios de plataforma entre sí y para aplicaciones comerciales).</li>
                                                         </ul>
                                                         <p>Cada capa delega trabajo a la capa inferior. En cada capa, los componentes, los procesos y los servicios se pueden definir en un nivel de granularidad gruesa y descomponerse en componentes, procesos y servicios de granularidad más fina. El gráfico muestra una variación de este tema.</p>
-                                                        <div class="col-lg-4 col-md-6 col-sm-12" style="margin: 0 auto 10px;">
+                                                        <div class="col-lg-8 col-md-8 col-sm-12" style="margin: 0 auto 10px;">
                                                             <div class="card">
-                                                                <img class="card-img-top" src="./assets/img_prop/3s_dos.png" alt="Alcance del Servicio Propuesto"/>
+                                                                <img class="card-img-top" src="./assets/img_prop/3s_dos.jpeg" alt="Alcance del Servicio Propuesto"/>
                                                             </div>
                                                         </div>
                                                         <p><strong>Beneficios y ventajas de la Arquitectura y Gobernabilidad de Información: </strong></p>
@@ -300,7 +321,7 @@
                                                         <p class="justify-text">Con un programa de AI orientado a resultados de negocio, las organizaciones se aseguran obtener resultados más rápido utilizando API abiertas, un UX simple con amplias funciones de colaboración, paneles de control avanzados y un enfoque basado en casos de uso. Este enfoque proporciona beneficios tangibles, incluida la racionalización de TI, la reducción de riesgos, el tiempo de comercialización más corto y una mayor alineación entre TI y negocios, lo que permite a las organizaciones abordar de manera eficiente los desafíos de transformación del negocio y racionalizar su cartera de TI al tiempo que reduce los riesgos y mejora la capacidad de recuperación operativa. </p>
                                                         <div class="col-12" style="margin: 0 auto 10px;">
                                                             <div class="card">
-                                                                <img class="card-img-top" src="./assets/img_prop/3s_tres.png" alt="Alcance del Servicio Propuesto"/>
+                                                                <img class="card-img-top" src="./assets/img_prop/3s_tres.jpeg" alt="Alcance del Servicio Propuesto"/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -381,7 +402,7 @@
                                                         </div>
                                                         <div class="col-12" style="margin: 0 auto 10px;">
                                                             <div class="card">
-                                                                <img class="card-img-top" src="./assets/img_prop/4s_uno.png" alt="Metodología de Implementación y Entregables"/>
+                                                                <img class="card-img-top" src="./assets/img_prop/4s_uno.jpeg" alt="Metodología de Implementación y Entregables"/>
                                                             </div>
                                                         </div>
                                                         <p>El equipo de trabajo por parte del Cliente que se asignará para atender las actividades propuestas es:</p>
